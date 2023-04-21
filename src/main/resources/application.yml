@@ -1,0 +1,12 @@
+server:
+  port: 9999
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+
+app:
+  rabbitmq:
+    direct-exchange: my.direct
+    direct-queue: my.direct.request
