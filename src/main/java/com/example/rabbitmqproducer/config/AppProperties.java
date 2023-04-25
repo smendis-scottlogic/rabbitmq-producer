@@ -14,7 +14,4 @@ public class AppProperties {
 
     private String directQueue;
 
-    public String getDirectDeadLetterQueue() {
-        return this.directQueue + ".dlq";
-    }
 }
